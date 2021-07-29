@@ -16,6 +16,6 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 2.1.502
+        dotnet-version: 2.1.x
     - name: Test
       run: dotnet test ./BizDayCalcTests/
